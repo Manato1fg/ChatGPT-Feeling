@@ -1,0 +1,20 @@
+body {
+  width: 200px;
+  height: 60px;
+  text-align: center;
+}
+
+#instructButton {
+  width: 160px;
+  height: 30px;
+  color: gray;
+  opacity: 0.5;
+}
+
+#fontButton {
+  width: 160px;
+  height: 30px;
+  background-color: #006f4f;
+  color: white;
+  opacity: 0.5;
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GPT font",
+  "version": "1.0.1",
+  "description": "Change the font of the GPT output where it wrapped with command.",
+  "content_scripts": [
+    {
+      "js": ["js/content.js"],
+      "matches": ["https://chat.openai.com/*"]
+    }
+  ],
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
